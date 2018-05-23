@@ -88,7 +88,7 @@ d3.csv("data/data.csv", function (error, povertyData) {
     // Tool tips
     let toolTip = d3.tip()
         .attr('class', 'toolTip')
-        .offset([80, -60])
+        .offset([100, -00])
         .html(d => `<strong>${d.state}<br />Poverty: ${d.belowPoverty}%<br />Difficulty Dressing/Bathing: ${d.difficultyDressingBathing}%</strong>`);
     
     chartGroup.call(toolTip);
